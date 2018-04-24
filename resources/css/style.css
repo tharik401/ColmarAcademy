@@ -1,0 +1,36 @@
+/* General Settings */
+html{
+  font-size: 16px;
+}
+body{
+  font-family: Helvetica;
+  display: block;
+  margin: 0px;
+}
+strong{
+  font-weight: bold;
+}
+.container{
+  margin: 0 1.5rem;
+}
+/* Header */
+header{
+  height: 4rem;
+  display: flex;
+}
+header .container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+}
+ul li{
+  margin-left: 1rem;
+}

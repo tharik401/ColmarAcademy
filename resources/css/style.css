@@ -80,7 +80,7 @@ ul li{
   color: white;
   text-align: center;
   margin: 1.5rem 0;
-  padding: 0.5rem;
+  padding: 0.7rem;
   background-color: #4a4a4a;
 }
 
@@ -121,14 +121,13 @@ ul li{
 /* Second Column */
 .info{
   border-left: 1px solid #d8d8d8;
-  padding-top: 0.85rem;
+  padding: 1rem 0 2rem 0;
   width: 40%;
 }
 /* Each block */
 .infoblock{
   border-bottom: 1px solid #d8d8d8;
   font-family: Georgia;
-  padding: 1rem 0;
   display: flex;
   align-items: center;
   width: 100%;
@@ -143,7 +142,7 @@ ul li{
   height: auto;
 }
 .infoimg{
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   max-width: 35%;
 }
 /* Text Information */

@@ -3,6 +3,7 @@ html{
   font-size: 16px;
 }
 body{
+  background-color: #f3f5f5;
   font-family: Helvetica;
   display: block;
   margin: 0px;
@@ -15,6 +16,7 @@ strong{
 }
 /* Header */
 header{
+  background-color: white;
   height: 4rem;
   display: flex;
 }
@@ -33,4 +35,133 @@ nav ul{
 }
 ul li{
   margin-left: 1rem;
+}
+
+/* First Section */
+#first{
+  background-color: #d8d8d8;
+}
+#first .container{
+  display: flex;
+  align-items: center;
+}
+.banner{
+  background-image: url("../images/banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 0;
+  padding-bottom: 40%;
+  margin: 2rem 0;
+}
+.bannertxt{
+  color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 0;
+  padding: 15% 0;
+  width: 30%;
+  margin-left: 3rem;
+
+}
+.bannertxt h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bannertxt p{
+  line-height: 1.4;
+  font-weight: bold;
+  padding: 1.5rem 0;
+  font-size: 1rem;
+}
+.buttom{
+  color: white;
+  text-align: center;
+  margin: 1.5rem 0;
+  padding: 0.5rem;
+  background-color: #4a4a4a;
+}
+
+/* Second Section */
+/* First column */
+#second{
+  color: #424242;
+
+}
+#second .container{
+  margin: 0;
+  display: flex;
+}
+.news{
+  padding-bottom: 2rem;
+  margin: 0 1.5rem;
+  width: 60%;
+
+}
+.news img{
+  width: 100%;
+  height: auto;
+  margin: 2rem 0;
+}
+.news h2{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.news p{
+  font-weight: 1.5rem;
+  margin: 1.5rem 0;
+}
+.news span{
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Second Column */
+.info{
+  border-left: 1px solid #d8d8d8;
+  padding-top: 0.85rem;
+  width: 40%;
+}
+/* Each block */
+.infoblock{
+  border-bottom: 1px solid #d8d8d8;
+  font-family: Georgia;
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+/* Last block */
+.last{
+  background-color: #d8d8d8;
+}
+/* image config */
+.infoimg img{
+  max-width: 100%;
+  height: auto;
+}
+.infoimg{
+  padding: 0 1rem;
+  max-width: 35%;
+}
+/* Text Information */
+.infotxt{
+  margin-right: 1rem;
+  width: 65%;
+}
+.infotxt h4{
+  font-weight: bold;
+  font-size: 1rem;
+}
+.infotxt p{
+  line-height: 1.5;
+  margin: 0.5rem 0;
+  font-size: 0.7rem;
+}
+.infotxt span{
+  font-weight: bold;
+  font-size: 0.7rem;
+  color: #4a90e2;
 }

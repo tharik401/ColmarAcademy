@@ -164,3 +164,38 @@ ul li{
   font-size: 0.7rem;
   color: #4a90e2;
 }
+
+/* Third Section */
+#third{
+  background-color: #eaebec;
+  padding-bottom: 2rem;
+}
+
+#third .container h2{
+  color: #424242;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 2rem 0 1.5rem 0;
+}
+/* Each Row */
+.row{
+  margin: 0.5rem 2.5rem;
+  display: flex;
+}
+/* Each Course */
+.course{
+  margin: 0 0.5rem;
+}
+.courseimg img{
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+.coursetxt{
+  padding: 1rem;
+  background-color: white;
+}
+
+/* Fourth Section */
+/* Fazer mobile com 750px ou menos */

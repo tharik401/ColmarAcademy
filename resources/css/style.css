@@ -143,7 +143,7 @@ ul li{
   height: auto;
 }
 .infoimg{
-  padding: 1rem 1rem;
+  padding: 1rem;
   max-width: 35%;
 }
 /* Text Information */
@@ -152,10 +152,12 @@ ul li{
   width: 65%;
 }
 .infotxt h4{
+  color:#4a4a4a;
   font-weight: bold;
   font-size: 1rem;
 }
 .infotxt p{
+  color: #a2a2a2;
   line-height: 1.5;
   margin: 0.5rem 0;
   font-size: 0.7rem;
@@ -216,3 +218,48 @@ ul li{
 }
 /* Fourth Section */
 /* Fazer mobile com 750px ou menos */
+#fourth{
+
+}
+#fourth h2{
+  color:#4a4a4a;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 2rem 0 0.5rem 0;
+}
+#fourth .container{
+  margin: 0;
+  display: flex;
+}
+#fourth .info, .infoblock{
+  border: 0;
+}
+#fourth .info{
+  padding: 1.5rem 0 2rem 0;
+}
+.infoblock.grey {
+  background-color: #d8d8d8;
+}
+.video{
+  padding: 1.5rem;
+  max-width: 60%;
+}
+video{
+  width: 100%;
+}
+.videotxt{
+  padding: 1.5rem 0 2rem 0;
+}
+.video h3{
+  color:#4a4a4a;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+
+}
+.video p{
+  color: #a2a2a2;
+  font-weight: 1.4;
+
+}

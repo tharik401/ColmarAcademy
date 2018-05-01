@@ -1,3 +1,4 @@
+
 /* General Settings */
 html{
   font-size: 16px;
@@ -14,11 +15,19 @@ strong{
 .container{
   margin: 0 1.5rem;
 }
+/* Position of main and footer with the header fixed */
+main, footer{
+  position: relative;
+  top: 4rem;
+}
 /* Header */
 header{
   background-color: white;
   height: 4rem;
   display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 header .container{
   width: 100%;
@@ -38,6 +47,8 @@ header .container{
 .logo h2{
   display: flex;
 }
+
+/* Navigation */
 nav ul{
   display: flex;
 }
@@ -51,7 +62,7 @@ ul li{
 .mobile{
   display: none;
 }
-
+/* Main */
 /* First Section */
 #first{
   background-color: #d8d8d8;
@@ -348,6 +359,9 @@ footer{
   /* Disapear with mobile */
   header .container{
     display: none;
+  }
+  main, footer{
+    position:inherit;
   }
 
   /* New Header Navigation  */
